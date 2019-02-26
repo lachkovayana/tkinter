@@ -1,3 +1,10 @@
 from tkinter import*
 root=Tk()
+root.geometry('250x150')
+fr1=Frame(root)
+fr1.pack(side=TOP)
+btn1=Button(fr1,text='Button 1')
+btn1.pack(side=LEFT)
+btn2=Button(fr1, text='Button 2')
+btn2.pack(side=RIGHT, padx=5)
 root.mainloop()
