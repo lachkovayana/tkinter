@@ -1,6 +1,5 @@
 from tkinter import*
 from random import*
-
 root=Tk()
 canv=Canvas(root, width=400,height=400)
 colors=['blue', 'green', 'red', 'yellow']
