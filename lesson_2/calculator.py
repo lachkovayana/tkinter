@@ -11,6 +11,10 @@ def number_button(num):
 def clear():
     text1.delete(0,END)
 
+def clear2():
+    n=text1.get()
+    text1.delete(len(n)-1)
+    
 def factorial():
     s=int(text1.get())
     f=1
@@ -25,7 +29,7 @@ def sqrt():
     clear()
     text1.insert(0,f)
 
-
+def iquel()
 
 btn1=Button(root, text='MC', width=4, height=1)
 btn1.grid(row=1, column=0, padx=5, pady=5)
@@ -42,7 +46,7 @@ btn6=Button(root, text='^', width=4, height=1, command=lambda:number_button('**'
 btn6.grid(row=2, column=0, padx=5, pady=3)
 btn7=Button(root, text='CE', width=4, height=1, command=clear)
 btn7.grid(row=2, column=1, padx=5)
-btn8=Button(root, text='C', width=4, height=1)
+btn8=Button(root, text='C', width=4, height=1, command=clear2)
 btn8.grid(row=2, column=2, padx=5)
 btn9=Button(root, text='n!', width=4, height=1, command=factorial)
 btn9.grid(row=2, column=3, padx=5)
