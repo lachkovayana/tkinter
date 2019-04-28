@@ -15,6 +15,6 @@ for i in range(20):
         count_1+=1
     if color =='green':
         count_2+=1
-print(count_1,' red circle(s), ', count_2,' red circle(s)')
+print(count_1,' red circle(s), ', count_2,' green circle(s)')
 canv.pack()
 mainloop()
